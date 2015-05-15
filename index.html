@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<title>Ali Momin</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script src="js/bind-polyfill.js"></script>
+		<script src="js/smooth-scroll.js"></script>
+	</head>
+	<body>
+		<div id="cover">
+			<div id="coverhead">
+				<div id="namediv"><span id="name">ali momin</span></div>
+				<div class="smdiv"><p id="smicons"><a href="https://twitter.com/alimomin93"><i class="icon-twitter"></i></a>
+					<a href="https://www.facebook.com/alimomin93"><i class="icon-facebook"></i></a>
+					<a href="http://www.linkedin.com/pub/ali-momin/47/3a3/70a"><i class="icon-linkedin"></i></a>
+					<a href="https://github.com/alimomin"><i class="icon-github"></i></a></p>
+				</div>
+			</div>
+
+			<div class="cover-content">
+				<h1>Ali Momin</h1>
+				<div id="underline"></div>	
+			</div>	
+		</div>
+		<nav class="nav">
+			<div id="menu">
+				<table>
+					<tbody><tr>
+						<td id="menu_about"><a data-scroll href="#about">a little <br><strong>ABOUT ME</strong></a></td>
+						<td><a data-scroll href="#projects">personal <br><strong>PROJECTS</strong></a></td>
+						<td><a href="resume.pdf" id="menu_textpart">my <br><strong>RESUME</strong></a></td>
+					</tr>
+				</tbody></table>
+
+				<div id="nav_contact"><a id="contact_nav" href="mailto:aamomin93@gmail.com"><img class="retina" src="./images/contact@2x.png" alt="contact"></a></div>
+			</div>
+		</nav>
+		<div id="about">
+			<div id="sectioncontent" class="seccontent"> 
+				<div class="title">a little about me</div>
+				<h1>I am a Computer Science student @uWaterloo.</h1>
+				<img id="mypic" src="images/mypic.jpg">
+				<p>Hey there! I'm Ali and I am a fourth year student <span>@uWaterloo</span> studying Computer Science. I have a strong passion for developing mobile and web applications and designing interfaces. Recently I have been working with Android mobile development. Check our all my projects below! When I am not pushing code and drooling over pixels, you can find me playing basketball or tennis, dabbling with and learning about new tech, and just living life! If you want to get in touch or work with me, feel free to send me an email. Also, you should follow me on twitter <span>@alimomin</span>! This winter term, I will be applying for my fourth coop term, hoping to further develop my programming skills!</p>
+			</div>
+		</div>
+		<div id="projects">
+			<div id="sectioncontent" class="seccontent">
+				<div class="title">my projects</div>
+				<h1>Check out some of the things I have worked on.</h1>
+				<div id="sectionline"></div>
+				<img class="projecticon" src="images/localarm-icon.png">
+				<h2 style="font-size:35px; display:inline;">LocAlarm - GPS Alarm</h1>
+				<div class="button"><a href="https://play.google.com/store/apps/details?id=com.applaudingapps.ali&hl=en">Download!</a></div>
+    			<div class="slides">
+      				<img src="images/localarm1.svg">
+				    <img src="images/localarm2.svg">
+				    <img src="images/localarm4.svg">
+				    <img id="lastimage" src="images/localarm3.svg">
+				</div>
+				<div id="sectionline" style="margin-top:400px;"></div>
+				<img class="projecticon" src="images/movieclub-icon.png">
+				<h2 style="font-size:35px; display:inline; top:665px;">MovieClub - Movie Search and Share</h1>
+				<div class="note">Coming Soon!</div>
+    			<div class="slides2">
+      				<img src="images/movieclub1.svg">
+				    <img src="images/movieclub2.png">
+				    <img src="images/movieclub3.png">
+				    <img id="lastimage" src="images/movieclub4.png">
+				</div>
+			</div>
+		</div>
+		<script>
+			smoothScroll.init();
+		</script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+		    $(window).scroll(function(){
+		        var scrollTop = 450;
+		        if($(window).scrollTop() >= scrollTop){
+		            $('.nav').css({
+		                position : 'fixed',
+		                top : '0'
+		            });
+		        }
+		        if($(window).scrollTop() < scrollTop){
+		            $('.nav').removeAttr('style');  
+		        }
+		    })
+		})</script>
+        <script src="smooth-scroll.js"></script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1080px" height="1920px" viewBox="0 0 1080 1920" enable-background="new 0 0 1080 1920" xml:space="preserve">
+<rect fill="#303644" width="1080" height="1920"/>
+<g>
+	<path fill="#345B94" d="M982.188,1191.219c0,3.85-3.15,7-7,7H104.812c-3.85,0-7-3.15-7-7v-130.438c0-3.85,3.15-7,7-7h870.375
+		c3.85,0,7,3.15,7,7V1191.219z"/>
+</g>
+<text transform="matrix(0.9113 0 0 1 392.0103 1143.459)" fill="#FFFFFF" font-family="'HelveticaNeue-Bold'" font-size="45">Login With Facebook</text>
+<path id="f" fill="#FFFFFF" d="M222.756,1125.982H216.9v-9.861h5.856c0,0,0-6.588,0-8.062s-0.297-11.344,12.331-11.344
+	c1.692,0,5.535,0,8.913,0c0,4.285,0,8.924,0,10.264c-2.532,0-5.262,0-6.558,0s-2.607,1.359-2.607,2.365s0,6.74,0,6.74
+	s8.098,0,9.15,0c-0.366,5.17-1.121,9.898-1.121,9.898h-8.075v29.303h-12.033V1125.982z"/>
+<g>
+	<text transform="matrix(0.9966 0 0 1 190 710.9204)" fill="#ECEAEA" font-family="'Montserrat-Bold'" font-size="160">MOVIE</text>
+	<text transform="matrix(0.9966 0 0 1 464 846.9204)" fill="#ECEAEA" font-family="'Montserrat-Bold'" font-size="160">CLUB</text>
+	<g>
+		<rect x="202" y="725" fill="#345B94" width="41.5" height="41.5"/>
+		<rect x="202" y="765.5" fill="#345B94" width="41.5" height="41.5"/>
+		<rect x="242.5" y="725" fill="#345B94" width="41.5" height="41.5"/>
+		<rect x="284" y="725" fill="#3A74A4" width="41.5" height="41.5"/>
+		<rect x="243.5" y="766.5" fill="#3A74A4" width="41.5" height="41.5"/>
+		<rect x="202" y="807" fill="#3A74A4" width="41.5" height="41.5"/>
+		<rect x="284" y="766.5" fill="#5C93BD" width="41.5" height="41.5"/>
+		<rect x="243.5" y="807" fill="#5C93BD" width="41.5" height="41.5"/>
+		<rect x="202" y="848.5" fill="#5C93BD" width="41.5" height="41.5"/>
+	</g>
+</g>
+</svg>
